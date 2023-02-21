@@ -1,0 +1,247 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" /> 
+    <link rel="icon" href="../assets/img/icon.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <title>SoulCode Store</title>
+</head>
+<body>
+    <header>
+        <div class="grid">
+            <nav class="nav-container">
+                <div class="logo-container">
+                    <a href="#">
+                        <img src="../assets/img/logoS.png" alt="SoulCode">
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#">Início</a></li>
+                        <li class="nav-item"><a href="#categories-section">Produtos</a></li>
+                        <li class="nav-item"><a href="#highlights-section">Destaques</a></li>
+                        <li class="nav-item"><a href="#contato">Contato</a></li>
+                        <li class="nav-item"><a href="https://soulcode.com/online" target="_blank">Online</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="showMenu()">
+                        <img class="icon" src="../assets/img/menuMobile.png" alt="mobile menu">
+                    </button>
+                </div>
+                <button class="cart-btn btn-cart-desktop">
+                    <img src="../assets/img/cart.png" alt="">
+                    <div class="bullet">4</div>
+                </button>
+            </nav>
+            <div class="mobile-list">
+                <ul>
+                    <li class="nav-item list-style-none"><a href="#">Início</a></li>
+                    <li class="nav-item list-style-none"><a href="#categories-section">Produtos</a></li>
+                    <li class="nav-item list-style-none"><a href="#highlights-section">Destaques</a></li>
+                    <li class="nav-item list-style-none"><a href="#">Contato</a></li>
+                    <li class="nav-item list-style-none"><a href="https://soulcode.com/online" target="_blank">Online</a></li>
+                </ul>
+            </div>
+            <div class="mobile-nav">
+                <button class="cart-btn">
+                    <img src="../assets/img/cart.png" alt="">
+                    <div class="bullet">4</div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="categories-section" id="categories-section">
+            <div class="grid">
+                <div class="title">
+                    <h1 class="title-1">Transforme sua <strong>vida</strong> </h1>
+                    <h1> e <strong>seu estilo</strong></h1>
+                </div>
+                <div class="products-list">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../assets/img/tshirt-js.jpg" alt="Camiseta com símbolo do JavaScript" class="cover">
+                            <div class="category-title">
+                                <h2>Camisetas</h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <img src="../assets/img/caneca.jpg" alt="Caneca com código" class="cover">
+                            <div class="category-title">
+                                <h2>Canecas</h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <img src="../assets/img/quadro.jpg" alt="Quadro react js" class="cover">
+                            <div class="category-title">
+                                <h2>Quadros</h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <img src="../assets/img/mousepad.jpg" alt="Mouse pad HTML" class="cover">
+                            <div class="category-title">
+                                <h2>Mouse Pads</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="highlights-section" id="highlights-section">
+            <div class="grid">
+                <div class="subTitle">
+                    <h2>Em Destaque</h2>
+                </div>
+                <div class="highlight-container">
+                    <div class="card-highlights">
+                        <img src="../assets/img/tshirt-js.jpg" class="cover" alt="">
+                    </div>
+                    <div class="highlight-description">
+                        <h2>Seu guarda-roupa com a cara da cultura Dev</h2>
+                        <p>
+                            Uma coisa é certa: vestir roupas que te cabem para além do tamanho é uma das melhores sensações que existem. Sabe
+                            aquela peça que você se identifica logo de cara? Então, é disso que nós estamos falando. <strong>Nossas
+                            camisetas Dev's te ajudam a se expressar</strong> <strong>e carregar no peito sua identidade.</strong>
+                        </p>
+                        <p>
+                            <strong>Expresse seu gosto Dev</strong> de forma divertida, demonstrando atitude, gosto e seu estilo de vida.
+                            As Camisetas são produzidas <strong>em malha especial 100% Algodão</strong> fio 30.1
+                            Cores Vivas
+                        </p>
+                    </div>
+                </div>
+                <div class="all-link">
+                    <a href="">Ver todos</a>
+                </div>
+            </div>
+        </section>
+        <section class="sales-section">
+            <div class="sales-container">
+                <div class="sales-card">
+                    <div class="sale-img-container">
+                        <img src="../assets/img/desconto.png" alt="">
+                    </div>
+                    <p>
+                        Nas compras acima de R$1.000,00 ganhe um cupom de R$50,00
+                    </p>
+                </div>
+                <div class="sales-card">
+                    <div class="sale-img-container">
+                        <img src="../assets/img/frete.png" alt="">
+                    </div>
+                    <p>
+                        Frete grátis sem valor minimo para todo Brasil 
+                    </p>
+                </div>
+                <div class="sales-card">
+                    <div class="sale-img-container">
+                        <img class="change" src="../assets/img/troca.png" alt="">
+                    </div>
+                    <p>
+                        Primeira troca grátis em até 7 dias úteis
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer id="contato">
+            <div class="grid">
+                <div class="footer-container">
+                    <div>
+                        <div class="logo-container">
+                            <a href="#">
+                                <img src="../assets/img/logoS.png" alt="SoulCode">
+                            </a>
+                        </div>
+                        <div class="institutional">
+                            <h3>Institucional</h3>
+                            <ul>
+                                <li class="list-style-none">
+                                    <a href="https://soulcode.com/sobre-nos" target="_blank">Quem somos</a>
+                                </li>
+                                <li class="list-style-none">
+                                    <a href="https://docs.google.com/forms/d/1S0qQMGnM1GrTR1DfSdWCnIhOxTtrRtI_2sgjrtedWmk/viewform?ts=63e68515&edit_requested=true" target="_blank">Trabalhe conosco</a>
+                                </li>
+                                <li class="list-style-none">
+                                    <a href="https://blog.soulcode.com/" target="_blank">Blog</a>
+                                </li>
+                                <li class="list-style-none">
+                                    <a href="https://soulcode-online-free.teachable.com/" target="_blank">SoulCode Online</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="payment">
+                            <h3>Formas de pagamento</h3>
+                            <div class="paymentlist-container">
+                                <img src="../assets/img/cardslist.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <h3 class="subTitle-footer">Onde estamos : </h3>
+                        <a class="scale-none" href="https://www.google.com.br/maps/place/SoulCode+Academy/@-23.566122,-46.6557482,17z/data=!4m6!3m5!1s0x94ce5746406ee8f7:0x32bbd06ffc892321!8m2!3d-23.5655554!4d-46.6542042!16s%2Fg%2F11nsr7x5gp" target="_blank">
+                            <div class="card ml-none">
+                                <img src="../assets/img/map.png" alt="Quadro react js" class="cover">
+                            </div>
+                        </a>
+                        <div class="socials">
+                            <h3>Nos siga nas redes :</h3>
+                            <ul>
+                                <li class="list-style-none">
+                                    <a href="https://www.facebook.com/SoulCodeAcademy" target="_blank">
+                                        <img src="../assets/img/facebook.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="list-style-none">
+                                    <a href="https://www.instagram.com/soulcodeacademy/" target="_blank">
+                                        <img src="../assets/img/instagram.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="list-style-none">
+                                    <a href="https://www.linkedin.com/company/soulcodeacademy/" target="_blank">
+                                        <img src="../assets/img/linkedin.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-container">
+                        <h3 class="subTitle-footer" >Entre em contato !</h3>
+                        <form action="">
+                            <input type="text" name="input" placeholder="Nome">
+                            <input type="email" name="email" placeholder="Email">
+                            <input type="tel" name="tel" placeholder="Telefone">
+                            <textarea name="menssage" rows="6" placeholder="Deixe sua mensagem"></textarea>
+                            <button>Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copy">
+                <div class="grid">
+                    <p>&copy; 2023 SoulCode Store . Todos os direitos reservados.</p>
+                </div>
+            </div>
+
+        </footer>
+    </main>
+
+
+    <script src="../assets/js/index.js"></script>
+</body>
+</html>
